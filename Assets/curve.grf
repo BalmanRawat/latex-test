@@ -1,0 +1,61 @@
+;This file was created by Graph (http://www.padowan.dk)
+;Do not change this file from other programs.
+[Graph]
+Version = 4.4.2.543
+MinVersion = 2.5
+OS = Windows NT 6.2 
+
+[Axes]
+xMin = 0
+xMax = 700
+xTickUnit = 50
+xGridUnit = 50
+xShowLabel = 0
+yMin = 0
+yMax = 2.1
+yTickUnit = 0.2
+yGridUnit = 0.2
+yShowLabel = 0
+yLabel = f(x)
+AxesColor = clBlue
+GridColor = 0x00FF7F7F
+NumberFont = Times New Roman,20,clBlack
+LabelFont = Times New Roman,20,clBlack,B
+LegendFont = Times New Roman,20,clBlack
+ShowLegend = 1
+Radian = 1
+AxesStyle = 2
+
+[Func1]
+FuncType = 0
+y = 64.5171*x^(-0.981752)
+LegendText = Power trendline [f(x) = 64.5171*x^(-0.981752)]
+Style = 1
+Color = clLime
+Size = 2
+
+[PointSeries1]
+FillColor = clRed
+LineColor = clBlue
+Size = 5
+Style = 0
+LabelPosition = 2
+PointCount = 18
+Points = 32,1.93;40,1.67;50,1.4;60,1.22;70,1.06;80,0.93;90,0.825;100,0.74;150,0.477;200,0.341;250,0.269;300,0.22;350,0.189;400,0.17;450,0.155;500,0.145;550,0.139;600,0.137;
+LegendText = Point Series Data
+
+[Label1]
+Placement = 0
+Pos = 48.0392;1.9215
+Text = {\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Times New Roman;}{\\f1\\fnil Times New Roman;}}\n{\\colortbl ;\\red128\\green128\\blue128;\\red0\\green0\\blue0;}\n\\viewkind4\\uc1\\pard\\qc\\cf1\\lang1030\\b\\f0\\fs40 Point series with\\par\na trendline\\cf2\\lang1033\\b0\\f1\\fs24\\par\n}\n
+BackgroundColor = clNone
+ShowInLegend = 0
+
+[Data]
+TextLabelCount = 1
+FuncCount = 1
+PointSeriesCount = 1
+ShadeCount = 0
+RelationCount = 0
+OleObjectCount = 0
+
